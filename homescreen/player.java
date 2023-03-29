@@ -21,5 +21,18 @@ public class player extends Actor
     {
         setLocation(getX(), getY() - 5);
     }
+    if (Greenfoot.isKeyDown("down"))
+    {
+        setLocation(getX(), getY() +5);
+    }
+    if (Greenfoot.isKeyDown("right"))
+    {
+        setLocation(getX()+5, getY());
+    }
+    if (Greenfoot.isKeyDown("left"))
+    {
+        setLocation(getX()-5, getY());
+    }
+    
 }   
 }
