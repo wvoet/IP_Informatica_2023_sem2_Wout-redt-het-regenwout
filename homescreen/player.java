@@ -49,5 +49,16 @@ public class player extends Actor
             */
         }
         
+        if ( isTouching(lifeonland.class))
+        {
+            getWorld().addObject(new lifeonland_explanation(),250,250);
+            setLocation(getX(), getY() +5);
+        }
+        
+        if (isTouching(cleanwater.class))
+        {
+            getWorld().addObject(new cleanwater_explanation(),250,250);
+            setLocation(getX(), getY() +5);
+        }
 }
 }
