@@ -1,4 +1,5 @@
 #Greenfoot project file
+<<<<<<< Updated upstream
 class.background.image=achtergrond_homescreen_eind.jpg
 class.boom.image=boom.png
 class.cleanwater.image=cleanwater.png
@@ -17,6 +18,25 @@ dependency2.to=lifeonland
 dependency2.type=UsesDependency
 dependency3.from=homescreenn
 dependency3.to=cleanwater
+=======
+class.boom.image=boom.png
+class.cleanwater.image=cleanwater.png
+class.cleanwater_explanation.image=clean\ water\ exp2.png
+class.homescreen.image=homebase\ eindachtergrond.jpg
+class.lifeonland.image=life\ on\ land\ goed.png
+class.lifeonland_explanation.image=lifeonland\ exp.png
+class.peace.image=peace.png
+class.peace_explanation.image=exp\ peace.png
+class.player.image=2fef68fe2172cc39724906ada0b87d04-removebg-preview.png
+dependency1.from=homescreen
+dependency1.to=cleanwater
+dependency1.type=UsesDependency
+dependency2.from=homescreen
+dependency2.to=lifeonland
+dependency2.type=UsesDependency
+dependency3.from=homescreen
+dependency3.to=peace
+>>>>>>> Stashed changes
 dependency3.type=UsesDependency
 dependency4.from=player
 dependency4.to=peace_explanation
@@ -25,6 +45,7 @@ dependency5.from=player
 dependency5.to=lifeonland_explanation
 dependency5.type=UsesDependency
 dependency6.from=player
+<<<<<<< Updated upstream
 dependency6.to=peace
 dependency6.type=UsesDependency
 dependency7.from=player
@@ -37,6 +58,26 @@ editor.fx.0.y=-7
 height=830
 package.numDependencies=7
 package.numTargets=10
+=======
+dependency6.to=cleanwater_explanation
+dependency6.type=UsesDependency
+dependency7.from=player
+dependency7.to=peace
+dependency7.type=UsesDependency
+dependency8.from=player
+dependency8.to=lifeonland
+dependency8.type=UsesDependency
+dependency9.from=player
+dependency9.to=cleanwater
+dependency9.type=UsesDependency
+editor.fx.0.height=737
+editor.fx.0.width=814
+editor.fx.0.x=360
+editor.fx.0.y=28
+height=838
+package.numDependencies=9
+package.numTargets=9
+>>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -52,6 +93,7 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=70
+<<<<<<< Updated upstream
 target1.name=peace_explanation
 target1.showInterface=false
 target1.type=ClassTarget
@@ -70,6 +112,19 @@ target2.name=cleanwater_explanation
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=150
+=======
+target1.name=cleanwater_explanation
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=150
+target1.x=0
+target1.y=0
+target2.height=70
+target2.name=peace_explanation
+target2.showInterface=false
+target2.type=ClassTarget
+target2.width=120
+>>>>>>> Stashed changes
 target2.x=0
 target2.y=0
 target3.height=70
@@ -101,7 +156,11 @@ target6.width=120
 target6.x=0
 target6.y=0
 target7.height=70
+<<<<<<< Updated upstream
 target7.name=background
+=======
+target7.name=homescreen
+>>>>>>> Stashed changes
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=120
@@ -115,7 +174,11 @@ target8.width=120
 target8.x=0
 target8.y=0
 target9.height=70
+<<<<<<< Updated upstream
 target9.name=homescreenn
+=======
+target9.name=player
+>>>>>>> Stashed changes
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=120
@@ -123,6 +186,10 @@ target9.x=0
 target9.y=0
 version=3.0.0
 width=1550
+<<<<<<< Updated upstream
 world.lastInstantiated=background
+=======
+world.lastInstantiated=homescreen
+>>>>>>> Stashed changes
 xPosition=0
 yPosition=0

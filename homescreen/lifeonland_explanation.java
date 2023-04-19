@@ -22,4 +22,8 @@ public class lifeonland_explanation extends Actor
         getWorld().removeObject(getWorld().getObjects(lifeonland_explanation.class).get(0));
         }
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
