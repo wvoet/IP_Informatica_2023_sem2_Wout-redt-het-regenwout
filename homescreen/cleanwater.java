@@ -13,11 +13,17 @@ public class cleanwater extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
     public void act()
     {
         // Add your action code here.
         
+=======
+    public void act()
+    {
+        // Add your action code here.
+>>>>>>> Stashed changes
 =======
     public void act()
     {

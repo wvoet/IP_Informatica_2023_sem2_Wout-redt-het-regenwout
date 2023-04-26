@@ -15,6 +15,7 @@ public class lifeonland extends Actor
     public void act()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
     }
     
@@ -22,6 +23,11 @@ public class lifeonland extends Actor
     
 }
 
+=======
+        // Add your action code here.
+    }
+}
+>>>>>>> Stashed changes
 =======
         // Add your action code here.
     }

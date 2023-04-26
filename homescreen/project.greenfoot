@@ -1,5 +1,6 @@
 #Greenfoot project file
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 class.background.image=achtergrond_homescreen_eind.jpg
 class.boom.image=boom.png
 class.cleanwater.image=cleanwater.png
@@ -19,6 +20,8 @@ dependency2.type=UsesDependency
 dependency3.from=homescreenn
 dependency3.to=cleanwater
 =======
+=======
+>>>>>>> Stashed changes
 class.boom.image=boom.png
 class.cleanwater.image=cleanwater.png
 class.cleanwater_explanation.image=clean\ water\ exp2.png
@@ -36,6 +39,9 @@ dependency2.to=lifeonland
 dependency2.type=UsesDependency
 dependency3.from=homescreen
 dependency3.to=peace
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 dependency3.type=UsesDependency
 dependency4.from=player
@@ -45,6 +51,7 @@ dependency5.from=player
 dependency5.to=lifeonland_explanation
 dependency5.type=UsesDependency
 dependency6.from=player
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 dependency6.to=peace
 dependency6.type=UsesDependency
@@ -59,6 +66,8 @@ height=830
 package.numDependencies=7
 package.numTargets=10
 =======
+=======
+>>>>>>> Stashed changes
 dependency6.to=cleanwater_explanation
 dependency6.type=UsesDependency
 dependency7.from=player
@@ -77,6 +86,9 @@ editor.fx.0.y=28
 height=838
 package.numDependencies=9
 package.numTargets=9
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 project.charset=UTF-8
 publish.hasSource=false
@@ -93,6 +105,7 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=70
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 target1.name=peace_explanation
 target1.showInterface=false
@@ -113,6 +126,8 @@ target2.showInterface=false
 target2.type=ClassTarget
 target2.width=150
 =======
+=======
+>>>>>>> Stashed changes
 target1.name=cleanwater_explanation
 target1.showInterface=false
 target1.type=ClassTarget
@@ -124,6 +139,9 @@ target2.name=peace_explanation
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 target2.x=0
 target2.y=0
@@ -157,7 +175,11 @@ target6.x=0
 target6.y=0
 target7.height=70
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 target7.name=background
+=======
+target7.name=homescreen
+>>>>>>> Stashed changes
 =======
 target7.name=homescreen
 >>>>>>> Stashed changes
@@ -175,7 +197,11 @@ target8.x=0
 target8.y=0
 target9.height=70
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 target9.name=homescreenn
+=======
+target9.name=player
+>>>>>>> Stashed changes
 =======
 target9.name=player
 >>>>>>> Stashed changes
@@ -187,7 +213,11 @@ target9.y=0
 version=3.0.0
 width=1550
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 world.lastInstantiated=background
+=======
+world.lastInstantiated=homescreen
+>>>>>>> Stashed changes
 =======
 world.lastInstantiated=homescreen
 >>>>>>> Stashed changes
