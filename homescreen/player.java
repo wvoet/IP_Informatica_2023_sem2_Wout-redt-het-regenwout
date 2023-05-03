@@ -7,12 +7,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version (a version number or a date)
  */
 
-
 public class Player extends Actor
 {
     public int xplayer;
     public int yplayer;
-    
+
     /**
      * Act - do whatever the player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -66,10 +65,11 @@ public class Player extends Actor
             setLocation(getX() + 5, getY() +5);
         }
     }
+
     public void plant(){
-        if (Greenfoot.isKeyDown("b"))
-        {
-            getWorld().addObject(new Boom(), 0, 0);
+        if (Greenfoot.isKeyDown("p")) {
+            Boom newBoom = new Boom();
+            getWorld().addObject(newBoom, getX(), getY());
         }
     }
 }
