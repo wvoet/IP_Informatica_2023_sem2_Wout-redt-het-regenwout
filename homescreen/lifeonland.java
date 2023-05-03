@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class lifeonland extends Actor
+public class Lifeonland extends Actor
 {
     /**
      * Act - do whatever the lifeonland wants to do. This method is called whenever
@@ -14,22 +14,6 @@ public class lifeonland extends Actor
      */
     public void act()
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        
-    }
-    
-      
-    
-}
-
-=======
         // Add your action code here.
     }
 }
->>>>>>> Stashed changes
-=======
-        // Add your action code here.
-    }
-}
->>>>>>> Stashed changes

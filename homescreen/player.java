@@ -6,8 +6,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class player extends Actor
+
+
+public class Player extends Actor
 {
+    public int xplayer;
+    public int yplayer;
+    
     /**
      * Act - do whatever the player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -16,79 +21,56 @@ public class player extends Actor
     {
         move();
         sdgs();
-    }
-    public void move(){
-    if (Greenfoot.isKeyDown("up"))
-    {
-        setLocation(getX(), getY() - 5);
-        setRotation(0);
-    }
-    if (Greenfoot.isKeyDown("down"))
-    {
-        setLocation(getX(), getY() +5);
-        setRotation(180);
-    }
-    if (Greenfoot.isKeyDown("right"))
-    {
-        setLocation(getX()+5, getY());
-        setRotation(90);
-    }
-    if (Greenfoot.isKeyDown("left"))
-    {
-        setLocation(getX()-5, getY());
-        setRotation(270);
+        plant();
     }
 
-}  
+    public void move(){
+        if (Greenfoot.isKeyDown("up"))
+        {
+            setLocation(getX(), getY() - 5);
+            setRotation(0);
+        }
+        if (Greenfoot.isKeyDown("down"))
+        {
+            setLocation(getX(), getY() +5);
+            setRotation(180);
+        }
+        if (Greenfoot.isKeyDown("right"))
+        {
+            setLocation(getX()+5, getY());
+            setRotation(90);
+        }
+        if (Greenfoot.isKeyDown("left"))
+        {
+            setLocation(getX()-5, getY());
+            setRotation(270);
+        }
+    }
+
     public void sdgs(){
-        if ( isTouching(peace.class) )
+        if ( isTouching(Peace.class))
         {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            getWorld().addObject(new peace_explanation(),250,250);
-            setLocation(getX(), getY() +5); /** We brengen de player naar achter anders blijft hij het object van de peace sdg raken en wordt er onmiddelijk opniew de explanation 
-=======
-            getWorld().addObject(new peace_explanation(),337,1858);
+            getWorld().addObject(new Peace_explanation(),337,1858);
             setLocation(getX() +5, getY() +5); /** We brengen de player naar achter anders blijft hij het object van de peace sdg raken en wordt er onmiddelijk opniew de explanation 
->>>>>>> Stashed changes
-=======
-            getWorld().addObject(new peace_explanation(),337,1858);
-            setLocation(getX() +5, getY() +5); /** We brengen de player naar achter anders blijft hij het object van de peace sdg raken en wordt er onmiddelijk opniew de explanation 
->>>>>>> Stashed changes
             geopened. Dan moet de speler niet meer eerst ze'n mannetje verplaatsen.
-            */
+             */
         }
-        
-        if ( isTouching(lifeonland.class))
+        if ( isTouching(Lifeonland.class))
         {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            getWorld().addObject(new lifeonland_explanation(),250,250);
-            setLocation(getX(), getY() +5);
-=======
-            getWorld().addObject(new lifeonland_explanation(),324,330);
+            getWorld().addObject(new Lifeonland_explanation(),324,330);
             setLocation(getX() +5, getY() +5);
->>>>>>> Stashed changes
-=======
-            getWorld().addObject(new lifeonland_explanation(),324,330);
-            setLocation(getX() +5, getY() +5);
->>>>>>> Stashed changes
         }
-        
-        if (isTouching(cleanwater.class))
+        if (isTouching(Cleanwater.class))
         {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            getWorld().addObject(new cleanwater_explanation(),250,250);
-            setLocation(getX(), getY() +5);
-=======
-            getWorld().addObject(new cleanwater_explanation(),1782,380);
+            getWorld().addObject(new Cleanwater_explanation(),1782,380);
             setLocation(getX() + 5, getY() +5);
->>>>>>> Stashed changes
-=======
-            getWorld().addObject(new cleanwater_explanation(),1782,380);
-            setLocation(getX() + 5, getY() +5);
->>>>>>> Stashed changes
         }
+    }
+    public void plant(){
+        if (Greenfoot.isKeyDown("b"))
+        {
+            getWorld().addObject(new Boom(), 0, 0);
+        }
+    }
 }
-}
+

@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class peace_explanation extends Actor
+public class Peace_explanation extends Actor
 {
     /**
      * Act - do whatever the peace_explanation wants to do. This method is called whenever
@@ -19,7 +19,7 @@ public class peace_explanation extends Actor
     public void textaway(){
         if (Greenfoot.isKeyDown("x"))
         {
-        getWorld().removeObject(getWorld().getObjects(peace_explanation.class).get(0));
+        getWorld().removeObject(getWorld().getObjects(Peace_explanation.class).get(0));
         }
     
     }

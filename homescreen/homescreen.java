@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class homescreen extends World
 {
-
+    public Player player;
     /**
      * Constructor for objects of class homescreen.
      * 
@@ -25,11 +25,13 @@ public class homescreen extends World
      */
     private void prepare()
     {
-        cleanwater cleanwater = new cleanwater();
+        Cleanwater cleanwater = new Cleanwater();
         addObject(cleanwater,1782,380);
-        lifeonland lifeonland = new lifeonland();
+        Lifeonland lifeonland = new Lifeonland();
         addObject(lifeonland,324,330);
-        peace peace = new peace();
+        Peace peace = new Peace();
         addObject(peace,337,1858);
+        Player player = new Player();
+        addObject(player,250,300);
     }
 }
