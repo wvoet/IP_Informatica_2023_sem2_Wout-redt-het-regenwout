@@ -21,6 +21,7 @@ public class Player extends Actor
         move();
         sdgs();
         plant();
+        zaadjes();
     }
 
     public void move(){
@@ -70,6 +71,18 @@ public class Player extends Actor
         if (Greenfoot.isKeyDown("p")) {
             Boom newBoom = new Boom();
             getWorld().addObject(newBoom, getX(), getY());
+            
+            Homescreen World = (Homescreen) getWorld();
+            World.decreaseCounter();
+        }
+    }
+    
+    public void zaadjes(){
+            if (isTouching(Seed.class)) {
+            // verwijder het zaadje
+            Homescreen World = (Homescreen) getWorld();
+            World.increaseCounter();
+            World.counterImage.clear();
         }
     }
 }
