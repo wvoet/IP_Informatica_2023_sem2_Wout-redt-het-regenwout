@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=plank
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ plank\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ same\ mechanics\ as\ garbage\ but\ for\ stage\ 2\r\n
+comment2.params=
+comment2.target=void\ randomise()
+comment3.params=
+comment3.target=void\ inRiver()
+numComments=4
