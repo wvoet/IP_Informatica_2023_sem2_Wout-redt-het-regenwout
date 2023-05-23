@@ -8,7 +8,7 @@ Stap 2: Installatie voltooien
 Dubbelklik op het gedownloade installatiebestand en volg de instructies op het scherm om Greenfoot op jouw computer te installeren. Na de installatie wordt Greenfoot gestart.
 
 Stap 3: Onze game downloaden
-Download onze spannende game rechtstreeks vanaf onze website (https://github.ugent.be/pages/wovoet/informaticaip/). Klik op de downloadknop om het installatiebestand te verkrijgen.
+Download onze spannende game rechtstreeks vanaf onze website (https://wvoet.github.io/Wout-redt-het-regenwout_IP_Informatica_sem2/). Klik op de downloadknop om het installatiebestand te verkrijgen.
 
 Stap 4: Het gedownloade spel openen in Greenfoot
 Als je eenmaal ons spel hebt gedownload, open je Greenfoot op jouw computer. Klik op "File" (Bestand) in de menubalk en selecteer "Open". Blader naar de locatie waar je het gedownloade spel hebt opgeslagen en selecteer het bestand met de extensie ".gfar" (Greenfoot Archive). Klik op "Openen" en het spel wordt geopend in Greenfoot.
