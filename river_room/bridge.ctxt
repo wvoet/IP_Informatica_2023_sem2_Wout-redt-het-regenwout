@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=bridge
-comment0.text=\r\n\ The\ bridge\ that\ gets\ broken\ when\ the\ player\ walks\ over\ it.\ The\ main\ objective\ of\ the\ level\ is\r\n\ to\ repair\ it\ with\ the\ planks\ you\ collect\ from\ the\ river\ in\ phase\ 2.\r\n\ \r\n\ @arnodepauw\r\n\ @V0.0.1\r\n
-comment1.params=state
-comment1.target=void\ bridgeState(int)
-comment1.text=\r\n\ Act\ -\ tracks\ the\ ammount\ of\ planks\ collected,\ and\ what\ the\ current\ state\r\n\ of\ the\ bridge\ should\ be.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-numComments=2

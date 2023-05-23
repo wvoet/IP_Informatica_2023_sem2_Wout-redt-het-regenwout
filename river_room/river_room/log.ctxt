@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=log
-comment0.text=\r\n\ deals\ damage\ to\ player\r\n\ \r\n\ @author\ Arno\ De\ Pauw\r\n\ @version\ V1\r\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ applies\ the\ inRiver\ function\r\n
-comment2.params=
-comment2.target=void\ inRiver()
-numComments=3
